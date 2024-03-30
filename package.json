@@ -1,0 +1,16 @@
+{
+    "name": "Tugas Javascript DOM Events",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx tailwindcss -i ./styles/css/input.css -o ./styles/css/output.css --watch",
+        "build": "npx tailwindcss -o ./styles/css/output.css --minify"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "tailwindcss": "^3.4.3"
+    }
+}

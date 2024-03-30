@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <!-- Style Tailwindcss -->
+        <link rel="stylesheet" href="./styles/css/output.css" />
+
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container flex justify-center item-center h-screen bg-white">
+            <div class="flex flex-col m-auto">
+                <h1 class="text-[32px] text-center font-extrabold" id="text-result">Yakin kan Profesi Anda !</h1>
+                <div class="relative">
+                    <div
+                        class="relative flex flex-col w-[610px] h-[300px] rounded-[30px] bg-[#DBDBDB] px-16 z-9 mt-24"
+                        id="bg-box"
+                    >
+                        <div class="absolute left-0 right-0 -top-20 flex flex-col items-center justify-center">
+                            <img src="./assets/image-1.svg" class="w-[219px]" alt="Gambar Profesi" id="image-prof" />
+                            <div class="rounded-[20px] py-3 px-16 text-center bg-[#EEEEE2]">
+                                <p class="text-[16px] font-bold" id="question">Apakah Anda Seorang Detective?</p>
+                            </div>
+                            <div class="flex gap-x-6 justify-center mt-7" id="btn-group">
+                                <button
+                                    class="bg-[#6FD240] text-[16px] font-bold text-center py-2 px-14 rounded-[12px]"
+                                    id="confirm-btn"
+                                >
+                                    Iya!!
+                                </button>
+                                <button
+                                    class="bg-[#E12E2E] text-[16px] font-bold text-center text-white py-2 px-14 rounded-[12px]"
+                                    id="cancel-btn"
+                                >
+                                    Tidak!!
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Import JS -->
+        <script src="./styles/scripts.js"></script>
+    </body>
+</html>
